@@ -88,7 +88,12 @@ function EddieTimeline() {
 					<TimelineConnector />
 				</TimelineSeparator>
 				<TimelineContent>
-					By 1866, we find Edward in Chicago listed as a student at Bryant and Stratton's Business College (Clark and Washington) in the 1866 Chicago City Directory. This detail is interesting, considering there was a student in the same program	in the same year by the name of George Burdick. George may have been the the half-brother of Ida Shreffler, whom would marry Edward in 1875.
+					<div className="timeline-title">In Chicago</div>
+					<div className="timeline-info">
+						<p>
+							By 1866, we find Edward in Chicago listed as a student at Bryant and Stratton's Business College (Clark and Washington) in the 1866 Chicago City Directory. This detail is interesting, considering there was a student in the same program	in the same year by the name of George Burdick. George may have been the the half-brother of Ida Shreffler, whom would marry Edward in 1875.
+						</p>
+					</div>
 				</TimelineContent>
 			</TimelineItem>
 			<TimelineItem>
@@ -100,9 +105,14 @@ function EddieTimeline() {
 					<TimelineConnector />
 				</TimelineSeparator>
 				<TimelineContent>
-					The 1867 Chicago City Directory shows Edward living with his father (Moses) at 75 S. Green. (The SW corner of Green and Madison.) His brother is listed twice, once as Nathaniel and once and Nathan, at the same address 269 W Kinzie. (Kinzie and Carpenter.)
-					<br />
-					<img className="hero-image" src="./img/chicago-directory-1867.png" alt="Chicago City Directory clipping 1867" />
+					<div className="timeline-title">Green and Madison</div>
+					<div className="timeline-info">
+						<p>
+							The 1867 Chicago City Directory shows Edward living with his father (Moses) at 75 S. Green. (The SW corner of Green and Madison.) His brother is listed twice, once as Nathaniel and once and Nathan, at the same address 269 W Kinzie. (Kinzie and Carpenter.)</p>
+						<p>
+							<img className="hero-image" src="./img/chicago-directory-1867.png" alt="Chicago City Directory clipping 1867" />
+						</p>
+					</div>
 				</TimelineContent>
 			</TimelineItem>
 			<TimelineItem>
@@ -114,13 +124,18 @@ function EddieTimeline() {
 					<TimelineConnector />
 				</TimelineSeparator>
 				<TimelineContent>
-					By 1869, Edward was shown to have a job at Hitchcock &amp; Walden, a book publisher, as a printer. (That letter of recommendation must have came in handy.) He is still living with his father (Moses) at 263 Fulton. (Between Carpenter and Aberdeen.) Of note, brother Jesse makes an appearance in the Directory, and he is shown working for S.H. Harris, a manufacturer of safes and bank vault doors.
-					<p>
-						The "H. T. Vandenburgh" listed first below is no known relation. However, the line of business for "Vandenburgh &amp; Boswell" would soon prove very imporant to Eddie.
-					</p>
-					<p>
-						<img className="hero-image" src="./img/chicago-directory-1869.png" alt="" />
-					</p>
+					<div className="timeline-title">Back to the Print Shop</div>
+					<div className="timeline-info">
+						<p>
+							By 1869, Edward was shown to have a job at Hitchcock &amp; Walden, a book publisher, as a printer. (That letter of recommendation must have came in handy.) He is still living with his father (Moses) at 263 Fulton. (Between Carpenter and Aberdeen.) Of note, brother Jesse makes an appearance in the Directory, and he is shown working for S.H. Harris, a manufacturer of safes and bank vault doors.
+						</p>
+						<p>
+							The "H. T. Vandenburgh" listed first below is no known relation. However, the line of business for "Vandenburgh &amp; Boswell" would soon prove very imporant to Eddie.
+						</p>
+						<p>
+							<img className="hero-image" src="./img/chicago-directory-1869.png" alt="" />
+						</p>
+					</div>
 				</TimelineContent>
 			</TimelineItem>
 			<TimelineItem>
@@ -132,10 +147,15 @@ function EddieTimeline() {
 					<TimelineConnector />
 				</TimelineSeparator>
 				<TimelineContent>
-					In the 1870 Chicago City Directory, Edward and his father, Moses, are listed with a grocery store named "M & E Vandenburgh" at 674 W Lake Street, which is the northeast corner of Lake and Wood Streets. (They lived together across Wood on the NW corner.) We have no idea why they opened a grocery store when they did or where they did. Edward would be in the business for the rest of his life.
-					<p>
-						<img className="hero-image" src="./img/chicago-directory-1870.png" alt="" />
-					</p>
+					<div className="timeline-title">Grocery Store</div>
+					<div className="timeline-info">
+						<p>
+							In the 1870 Chicago City Directory, Edward and his father, Moses, are listed with a grocery store named "M & E Vandenburgh" at 674 W Lake Street, which is the northeast corner of Lake and Wood Streets. (They lived together across Wood on the NW corner.) We have no idea why they opened a grocery store when they did or where they did. Edward would be in the business for the rest of his life.
+						</p>
+						<p>
+							<img className="hero-image" src="./img/chicago-directory-1870.png" alt="" />
+						</p>
+					</div>
 				</TimelineContent>
 			</TimelineItem>
 			<TimelineItem>
@@ -147,10 +167,15 @@ function EddieTimeline() {
 					<TimelineConnector />
 				</TimelineSeparator>
 				<TimelineContent>
-					The 1871 directory shows "M & E" across from their original location at 671 W Lake Street. (Lake and Wood.) Brother Nathan and Jesse are still nearby.
-					<p>
-						<img className="hero-image" src="./img/chicago-directory-1871.png" alt="" />
-					</p>
+					<div className="timeline-title">Grocery Store</div>
+					<div className="timeline-info">
+						<p>
+							The 1871 directory shows "M & E" across from their original location at 671 W Lake Street. (Lake and Wood.) Brother Nathan and Jesse are still nearby.
+						</p>
+						<p>
+							<img className="hero-image" src="./img/chicago-directory-1871.png" alt="" />
+						</p>
+					</div>
 				</TimelineContent>
 			</TimelineItem>
 			<TimelineItem>
@@ -164,7 +189,7 @@ function EddieTimeline() {
 				<TimelineContent>
 					<div className="timeline-title">The Great Chicago Fire</div>
 					<div className="timeline-info">
-						<p>The conflagraiton in October 1871 must have had an impact on the Vandenburgh family, in spite of being 1 and a half miles from the fire extent in West Town. How they were affected is unknown.</p>
+						<p>The conflagration in October 1871 must have had an impact on the Vandenburgh family, in spite of being 1 and a half miles from the fire extent in West Town. How they were affected is unknown.</p>
 					</div>
 				</TimelineContent>
 			</TimelineItem>
@@ -197,9 +222,15 @@ function EddieTimeline() {
 				<TimelineContent>
 					<div className="timeline-title">Marriage to Ida Shreffler</div>
 					<div className="timeline-info">
-						<p>On November 11, 1875, Edward married Miss Ida Shreffler at the Ada Street M.E. Church in Chicago (Ada Street, between Lake and Fulton.)</p>
-						<img className="hero-image" src="./img/wedding-envelope.jpg" alt="Wedding Envelope" />
-						<img className="hero-image" src="./img/wedding-card.jpg" alt="Wedding Card" />
+						<p>
+							On November 11, 1875, Edward married Miss Ida Shreffler at the Ada Street M.E. Church in Chicago (Ada Street, between Lake and Fulton.)
+						</p>
+						<p>
+							<img className="hero-image" src="./img/wedding-envelope.jpg" alt="Wedding Envelope" />
+						</p>
+						<p>
+							<img className="hero-image" src="./img/wedding-card.jpg" alt="Wedding Card" />
+						</p>
 					</div>
 				</TimelineContent>
 			</TimelineItem>
@@ -214,8 +245,12 @@ function EddieTimeline() {
 				<TimelineContent>
 					<div className="timeline-title">Business Going Strong</div>
 					<div className="timeline-info">
-						<p>In the directory of the church Eddie and Ida were married, this advertisement appeared in 1877.</p>
-						<img className="hero-image" src="./img/MandE-in-church-directory.png" alt="" />
+						<p>
+							In the directory of the church Eddie and Ida were married, this advertisement appeared in 1877.
+						</p>
+						<p>
+							<img className="hero-image" src="./img/MandE-in-church-directory.png" alt="" />
+						</p>
 					</div>
 				</TimelineContent>
 			</TimelineItem>
@@ -230,9 +265,15 @@ function EddieTimeline() {
 				<TimelineContent>
 					<div className="timeline-title">Historical Prices</div>
 					<div className="timeline-info">
-						<p>In this poster from 1878, the prices at M & E Grocers are listed. </p>
-						<img className="hero-image" src="./img/m-and-e.sales.sheet.jpg" alt="" />
-						<p>(Interesting note: The Kennedy "crackers" refers to an historic bakery in Cambridge, Massachusetts that first produced the Fig Newton in 1891.)</p>
+						<p>
+							In this poster from 1878, the prices at M & E Grocers are listed.
+						</p>
+						<p>
+							<img className="hero-image" src="./img/m-and-e.sales.sheet.jpg" alt="" />
+						</p>
+						<p>
+							(Interesting note: The Kennedy "crackers" refers to an historic bakery in Cambridge, Massachusetts that first produced the Fig Newton in 1891.)
+						</p>
 					</div>
 				</TimelineContent>
 			</TimelineItem>
@@ -247,8 +288,32 @@ function EddieTimeline() {
 				<TimelineContent>
 					<div className="timeline-title">Moses Dies</div>
 					<div className="timeline-info">
-						<p>In February of 1879, Edward's father dies.</p>
-						<img className="hero-image" src="./img/moses-obit.jpg" alt=""/>
+						<p>
+							In February of 1879, Edward's father dies.
+						</p>
+						<p>
+							<img className="hero-image" src="./img/moses-obit.jpg" alt="" />
+						</p>
+					</div>
+				</TimelineContent>
+			</TimelineItem>
+			<TimelineItem>
+				<TimelineOppositeContent color="text.secondary">
+					Also 1879
+				</TimelineOppositeContent>
+				<TimelineSeparator>
+					<TimelineDot />
+					<TimelineConnector />
+				</TimelineSeparator>
+				<TimelineContent>
+					<div className="timeline-title">Family Tragedy</div>
+					<div className="timeline-info">
+						<p>
+							Soon after Edward's father died, the Vandenburghs welcomed a son to the family. Nothing is known of Vickie Vandenburgh outside of this newspaper clipping about his death found in an old photo album.
+						</p>
+						<p>
+							<img className="hero-image" src="./img/vicky-obit.jpg" alt="" />
+						</p>
 					</div>
 				</TimelineContent>
 			</TimelineItem>
@@ -261,11 +326,15 @@ function EddieTimeline() {
 					<TimelineConnector />
 				</TimelineSeparator>
 				<TimelineContent>
-					<p>
-						Soon after Edward's father died, the Vandenburghs welcomed a son
-						to the family. Nothing is known of Vicky Vandenburgh outside of this newspaper
-						clipping about his death found in an old family photo album.</p>
-					<img src="./img/vicky-obit.jpg" alt="Vickie Vandenburgh obituary notice" />
+					<div className="timeline-title">Moses Dies</div>
+					<div className="timeline-info">
+						<p>
+							In February of 1879, Edward's father dies.
+						</p>
+						<p>
+							<img className="hero-image" src="./img/moses-obit.jpg" alt="" />
+						</p>
+					</div>
 				</TimelineContent>
 			</TimelineItem>
 			<TimelineItem>
@@ -277,11 +346,15 @@ function EddieTimeline() {
 					<TimelineConnector />
 				</TimelineSeparator>
 				<TimelineContent>
-					<p>
-						Soon after Edward's father died, the Vandenburghs welcomed a son
-						to the family. Nothing is known of Vicky Vandenburgh outside of this newspaper
-						clipping about his death found in an old family photo album.</p>
-					<img src="./img/vicky-obit.jpg" alt="Vickie Vandenburgh obituary notice" />
+					<div className="timeline-title">Moses Dies</div>
+					<div className="timeline-info">
+						<p>
+							In February of 1879, Edward's father dies.
+						</p>
+						<p>
+							<img className="hero-image" src="./img/moses-obit.jpg" alt="" />
+						</p>
+					</div>
 				</TimelineContent>
 			</TimelineItem>
 			<TimelineItem>
@@ -293,11 +366,15 @@ function EddieTimeline() {
 					<TimelineConnector />
 				</TimelineSeparator>
 				<TimelineContent>
-					<p>
-						Soon after Edward's father died, the Vandenburghs welcomed a son
-						to the family. Nothing is known of Vicky Vandenburgh outside of this newspaper
-						clipping about his death found in an old family photo album.</p>
-					<img src="./img/vicky-obit.jpg" alt="Vickie Vandenburgh obituary notice" />
+					<div className="timeline-title">Moses Dies</div>
+					<div className="timeline-info">
+						<p>
+							In February of 1879, Edward's father dies.
+						</p>
+						<p>
+							<img className="hero-image" src="./img/moses-obit.jpg" alt="" />
+						</p>
+					</div>
 				</TimelineContent>
 			</TimelineItem>
 			<TimelineItem>
@@ -309,11 +386,15 @@ function EddieTimeline() {
 					<TimelineConnector />
 				</TimelineSeparator>
 				<TimelineContent>
-					<p>
-						Soon after Edward's father died, the Vandenburghs welcomed a son
-						to the family. Nothing is known of Vicky Vandenburgh outside of this newspaper
-						clipping about his death found in an old family photo album.</p>
-					<img src="./img/vicky-obit.jpg" alt="Vickie Vandenburgh obituary notice" />
+					<div className="timeline-title">Moses Dies</div>
+					<div className="timeline-info">
+						<p>
+							In February of 1879, Edward's father dies.
+						</p>
+						<p>
+							<img className="hero-image" src="./img/moses-obit.jpg" alt="" />
+						</p>
+					</div>
 				</TimelineContent>
 			</TimelineItem>
 			<TimelineItem>
@@ -325,11 +406,15 @@ function EddieTimeline() {
 					<TimelineConnector />
 				</TimelineSeparator>
 				<TimelineContent>
-					<p>
-						Soon after Edward's father died, the Vandenburghs welcomed a son
-						to the family. Nothing is known of Vicky Vandenburgh outside of this newspaper
-						clipping about his death found in an old family photo album.</p>
-					<img src="./img/vicky-obit.jpg" alt="Vickie Vandenburgh obituary notice" />
+					<div className="timeline-title">Moses Dies</div>
+					<div className="timeline-info">
+						<p>
+							In February of 1879, Edward's father dies.
+						</p>
+						<p>
+							<img className="hero-image" src="./img/moses-obit.jpg" alt="" />
+						</p>
+					</div>
 				</TimelineContent>
 			</TimelineItem>
 			<TimelineItem>
@@ -341,155 +426,15 @@ function EddieTimeline() {
 					<TimelineConnector />
 				</TimelineSeparator>
 				<TimelineContent>
-					<p>
-						Soon after Edward's father died, the Vandenburghs welcomed a son
-						to the family. Nothing is known of Vicky Vandenburgh outside of this newspaper
-						clipping about his death found in an old family photo album.</p>
-					<img src="./img/vicky-obit.jpg" alt="Vickie Vandenburgh obituary notice" />
-				</TimelineContent>
-			</TimelineItem>
-			<TimelineItem>
-				<TimelineOppositeContent color="text.secondary">
-					9:00 am
-				</TimelineOppositeContent>
-				<TimelineSeparator>
-					<TimelineDot />
-					<TimelineConnector />
-				</TimelineSeparator>
-				<TimelineContent>
-					<p>
-						Soon after Edward's father died, the Vandenburghs welcomed a son
-						to the family. Nothing is known of Vicky Vandenburgh outside of this newspaper
-						clipping about his death found in an old family photo album.</p>
-					<img src="./img/vicky-obit.jpg" alt="Vickie Vandenburgh obituary notice" />
-				</TimelineContent>
-			</TimelineItem>
-			<TimelineItem>
-				<TimelineOppositeContent color="text.secondary">
-					9:00 am
-				</TimelineOppositeContent>
-				<TimelineSeparator>
-					<TimelineDot />
-					<TimelineConnector />
-				</TimelineSeparator>
-				<TimelineContent>
-					<p>
-						Soon after Edward's father died, the Vandenburghs welcomed a son
-						to the family. Nothing is known of Vicky Vandenburgh outside of this newspaper
-						clipping about his death found in an old family photo album.</p>
-					<img src="./img/vicky-obit.jpg" alt="Vickie Vandenburgh obituary notice" />
-				</TimelineContent>
-			</TimelineItem>
-			<TimelineItem>
-				<TimelineOppositeContent color="text.secondary">
-					9:00 am
-				</TimelineOppositeContent>
-				<TimelineSeparator>
-					<TimelineDot />
-					<TimelineConnector />
-				</TimelineSeparator>
-				<TimelineContent>
-					<p>
-						Soon after Edward's father died, the Vandenburghs welcomed a son
-						to the family. Nothing is known of Vicky Vandenburgh outside of this newspaper
-						clipping about his death found in an old family photo album.</p>
-					<img src="./img/vicky-obit.jpg" alt="Vickie Vandenburgh obituary notice" />
-				</TimelineContent>
-			</TimelineItem>
-			<TimelineItem>
-				<TimelineOppositeContent color="text.secondary">
-					9:00 am
-				</TimelineOppositeContent>
-				<TimelineSeparator>
-					<TimelineDot />
-					<TimelineConnector />
-				</TimelineSeparator>
-				<TimelineContent>
-					<p>
-						Soon after Edward's father died, the Vandenburghs welcomed a son
-						to the family. Nothing is known of Vicky Vandenburgh outside of this newspaper
-						clipping about his death found in an old family photo album.</p>
-					<img src="./img/vicky-obit.jpg" alt="Vickie Vandenburgh obituary notice" />
-				</TimelineContent>
-			</TimelineItem>
-			<TimelineItem>
-				<TimelineOppositeContent color="text.secondary">
-					9:00 am
-				</TimelineOppositeContent>
-				<TimelineSeparator>
-					<TimelineDot />
-					<TimelineConnector />
-				</TimelineSeparator>
-				<TimelineContent>
-					<p>
-						Soon after Edward's father died, the Vandenburghs welcomed a son
-						to the family. Nothing is known of Vicky Vandenburgh outside of this newspaper
-						clipping about his death found in an old family photo album.</p>
-					<img src="./img/vicky-obit.jpg" alt="Vickie Vandenburgh obituary notice" />
-				</TimelineContent>
-			</TimelineItem>
-			<TimelineItem>
-				<TimelineOppositeContent color="text.secondary">
-					9:00 am
-				</TimelineOppositeContent>
-				<TimelineSeparator>
-					<TimelineDot />
-					<TimelineConnector />
-				</TimelineSeparator>
-				<TimelineContent>
-					<p>
-						Soon after Edward's father died, the Vandenburghs welcomed a son
-						to the family. Nothing is known of Vicky Vandenburgh outside of this newspaper
-						clipping about his death found in an old family photo album.</p>
-					<img src="./img/vicky-obit.jpg" alt="Vickie Vandenburgh obituary notice" />
-				</TimelineContent>
-			</TimelineItem>
-			<TimelineItem>
-				<TimelineOppositeContent color="text.secondary">
-					9:00 am
-				</TimelineOppositeContent>
-				<TimelineSeparator>
-					<TimelineDot />
-					<TimelineConnector />
-				</TimelineSeparator>
-				<TimelineContent>
-					<p>
-						Soon after Edward's father died, the Vandenburghs welcomed a son
-						to the family. Nothing is known of Vicky Vandenburgh outside of this newspaper
-						clipping about his death found in an old family photo album.</p>
-					<img src="./img/vicky-obit.jpg" alt="Vickie Vandenburgh obituary notice" />
-				</TimelineContent>
-			</TimelineItem>
-			<TimelineItem>
-				<TimelineOppositeContent color="text.secondary">
-					9:00 am
-				</TimelineOppositeContent>
-				<TimelineSeparator>
-					<TimelineDot />
-					<TimelineConnector />
-				</TimelineSeparator>
-				<TimelineContent>
-					<p>
-						Soon after Edward's father died, the Vandenburghs welcomed a son
-						to the family. Nothing is known of Vicky Vandenburgh outside of this newspaper
-						clipping about his death found in an old family photo album.</p>
-					<img src="./img/vicky-obit.jpg" alt="Vickie Vandenburgh obituary notice" />
-				</TimelineContent>
-			</TimelineItem>
-			<TimelineItem>
-				<TimelineOppositeContent color="text.secondary">
-					9:00 am
-				</TimelineOppositeContent>
-				<TimelineSeparator>
-					<TimelineDot />
-					<TimelineConnector />
-				</TimelineSeparator>
-				<TimelineContent>
-					<p>
-						Soon after Edward's father died, the Vandenburghs welcomed a son
-						to the family. Nothing is known of Vicky Vandenburgh outside of this newspaper
-						clipping about his death found in an old family photo album.</p>
-					<img src="./img/vicky-obit.jpg" alt="Vickie Vandenburgh obituary notice" />
+					<div className="timeline-title">Moses Dies</div>
+					<div className="timeline-info">
+						<p>
+							In February of 1879, Edward's father dies.
+						</p>
+						<p>
+							<img className="hero-image" src="./img/moses-obit.jpg" alt="" />
+						</p>
+					</div>
 				</TimelineContent>
 			</TimelineItem>
 		</Timeline >
