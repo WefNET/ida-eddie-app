@@ -21,3 +21,16 @@ code {
 .hero-image {
     width: 70%;
 }
+
+.timeline-title {
+    font-size: larger;
+}
+
+.timeline-info {
+    font-size: inherit;
+}
+
+#treeWrapper {
+    width: 400px;
+    height: 600px;
+}
