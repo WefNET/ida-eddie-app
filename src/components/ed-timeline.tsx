@@ -248,7 +248,7 @@ function EddieTimeline() {
 					<div className="timeline-title">Moses Dies</div>
 					<div className="timeline-info">
 						<p>In February of 1879, Edward's father dies.</p>
-						<img className="hero-image" src="./img/moses-obit.jpg" />
+						<img className="hero-image" src="./img/moses-obit.jpg" alt=""/>
 					</div>
 				</TimelineContent>
 			</TimelineItem>
