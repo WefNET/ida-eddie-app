@@ -104,7 +104,7 @@ function EddieTimeline() {
 						The "H. T. Vandenburgh" listed first below is no known relation. However, the line of business for "Vandenburgh &amp; Boswell" would soon prove very imporant to Eddie.
 					</p>
 					<p>
-						<img className="hero-image" src="./img/chicago-directory-1869.png" />
+						<img className="hero-image" src="./img/chicago-directory-1869.png" alt="" />
 					</p>
 				</TimelineContent>
 			</TimelineItem>
@@ -119,7 +119,7 @@ function EddieTimeline() {
 				<TimelineContent>
 					In the 1870 Chicago City Directory, Edward and his father, Moses, are listed with a grocery store named "M & E Vandenburgh" at 674 W Lake Street, which is the northeast corner of Lake and Wood Streets. (They lived together across Wood on the NW corner.) We have no idea why they opened a grocery store when they did or where they did. Edward would be in the business for the rest of his life.
 					<p>
-						<img className="hero-image" src="./img/chicago-directory-1870.png" />
+						<img className="hero-image" src="./img/chicago-directory-1870.png" alt="" />
 					</p>
 				</TimelineContent>
 			</TimelineItem>
