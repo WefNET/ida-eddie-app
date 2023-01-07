@@ -17,11 +17,11 @@ function EddieTimeline() {
 			}}
 		>
 			<TimelineItem>
-				<TimelineOppositeContent color="text.secondary">
+				<TimelineOppositeContent>
 					1600s
 				</TimelineOppositeContent>
 				<TimelineSeparator>
-					<TimelineDot />
+					<TimelineDot color="secondary" />
 					<TimelineConnector />
 				</TimelineSeparator>
 				<TimelineContent>
@@ -36,11 +36,11 @@ function EddieTimeline() {
 				</TimelineContent>
 			</TimelineItem>
 			<TimelineItem>
-				<TimelineOppositeContent color="text.secondary">
+				<TimelineOppositeContent>
 					1845
 				</TimelineOppositeContent>
 				<TimelineSeparator>
-					<TimelineDot />
+					<TimelineDot color="secondary" />
 					<TimelineConnector />
 				</TimelineSeparator>
 				<TimelineContent>
@@ -56,11 +56,11 @@ function EddieTimeline() {
 				</TimelineContent>
 			</TimelineItem>
 			<TimelineItem>
-				<TimelineOppositeContent color="text.secondary">
+				<TimelineOppositeContent>
 					1862
 				</TimelineOppositeContent>
 				<TimelineSeparator>
-					<TimelineDot />
+					<TimelineDot color="secondary" />
 					<TimelineConnector />
 				</TimelineSeparator>
 				<TimelineContent>
@@ -80,11 +80,11 @@ function EddieTimeline() {
 				</TimelineContent>
 			</TimelineItem>
 			<TimelineItem>
-				<TimelineOppositeContent color="text.secondary">
+				<TimelineOppositeContent>
 					1866
 				</TimelineOppositeContent>
 				<TimelineSeparator>
-					<TimelineDot />
+					<TimelineDot color="secondary" />
 					<TimelineConnector />
 				</TimelineSeparator>
 				<TimelineContent>
@@ -97,11 +97,11 @@ function EddieTimeline() {
 				</TimelineContent>
 			</TimelineItem>
 			<TimelineItem>
-				<TimelineOppositeContent color="text.secondary">
+				<TimelineOppositeContent>
 					1867
 				</TimelineOppositeContent>
 				<TimelineSeparator>
-					<TimelineDot />
+					<TimelineDot color="secondary" />
 					<TimelineConnector />
 				</TimelineSeparator>
 				<TimelineContent>
@@ -116,11 +116,11 @@ function EddieTimeline() {
 				</TimelineContent>
 			</TimelineItem>
 			<TimelineItem>
-				<TimelineOppositeContent color="text.secondary">
+				<TimelineOppositeContent>
 					1869
 				</TimelineOppositeContent>
 				<TimelineSeparator>
-					<TimelineDot />
+					<TimelineDot color="secondary" />
 					<TimelineConnector />
 				</TimelineSeparator>
 				<TimelineContent>
@@ -139,11 +139,11 @@ function EddieTimeline() {
 				</TimelineContent>
 			</TimelineItem>
 			<TimelineItem>
-				<TimelineOppositeContent color="text.secondary">
+				<TimelineOppositeContent>
 					1870
 				</TimelineOppositeContent>
 				<TimelineSeparator>
-					<TimelineDot />
+					<TimelineDot color="secondary" />
 					<TimelineConnector />
 				</TimelineSeparator>
 				<TimelineContent>
@@ -159,11 +159,11 @@ function EddieTimeline() {
 				</TimelineContent>
 			</TimelineItem>
 			<TimelineItem>
-				<TimelineOppositeContent color="text.secondary">
+				<TimelineOppositeContent>
 					1871
 				</TimelineOppositeContent>
 				<TimelineSeparator>
-					<TimelineDot />
+					<TimelineDot color="secondary" />
 					<TimelineConnector />
 				</TimelineSeparator>
 				<TimelineContent>
@@ -179,11 +179,11 @@ function EddieTimeline() {
 				</TimelineContent>
 			</TimelineItem>
 			<TimelineItem>
-				<TimelineOppositeContent color="text.secondary">
+				<TimelineOppositeContent>
 					Also 1871
 				</TimelineOppositeContent>
 				<TimelineSeparator>
-					<TimelineDot />
+					<TimelineDot color="secondary" />
 					<TimelineConnector />
 				</TimelineSeparator>
 				<TimelineContent>
@@ -194,11 +194,11 @@ function EddieTimeline() {
 				</TimelineContent>
 			</TimelineItem>
 			<TimelineItem>
-				<TimelineOppositeContent color="text.secondary">
+				<TimelineOppositeContent>
 					1875
 				</TimelineOppositeContent>
 				<TimelineSeparator>
-					<TimelineDot />
+					<TimelineDot color="secondary" />
 					<TimelineConnector />
 				</TimelineSeparator>
 				<TimelineContent>
@@ -212,11 +212,11 @@ function EddieTimeline() {
 				</TimelineContent>
 			</TimelineItem>
 			<TimelineItem>
-				<TimelineOppositeContent color="text.secondary">
+				<TimelineOppositeContent>
 					Also 1875
 				</TimelineOppositeContent>
 				<TimelineSeparator>
-					<TimelineDot />
+					<TimelineDot color="secondary" />
 					<TimelineConnector />
 				</TimelineSeparator>
 				<TimelineContent>
@@ -235,11 +235,11 @@ function EddieTimeline() {
 				</TimelineContent>
 			</TimelineItem>
 			<TimelineItem>
-				<TimelineOppositeContent color="text.secondary">
+				<TimelineOppositeContent>
 					1877
 				</TimelineOppositeContent>
 				<TimelineSeparator>
-					<TimelineDot />
+					<TimelineDot color="secondary" />
 					<TimelineConnector />
 				</TimelineSeparator>
 				<TimelineContent>
@@ -255,11 +255,11 @@ function EddieTimeline() {
 				</TimelineContent>
 			</TimelineItem>
 			<TimelineItem>
-				<TimelineOppositeContent color="text.secondary">
+				<TimelineOppositeContent>
 					1878
 				</TimelineOppositeContent>
 				<TimelineSeparator>
-					<TimelineDot />
+					<TimelineDot color="secondary" />
 					<TimelineConnector />
 				</TimelineSeparator>
 				<TimelineContent>
@@ -278,11 +278,11 @@ function EddieTimeline() {
 				</TimelineContent>
 			</TimelineItem>
 			<TimelineItem>
-				<TimelineOppositeContent color="text.secondary">
+				<TimelineOppositeContent>
 					1879
 				</TimelineOppositeContent>
 				<TimelineSeparator>
-					<TimelineDot />
+					<TimelineDot color="secondary" />
 					<TimelineConnector />
 				</TimelineSeparator>
 				<TimelineContent>
@@ -298,11 +298,11 @@ function EddieTimeline() {
 				</TimelineContent>
 			</TimelineItem>
 			<TimelineItem>
-				<TimelineOppositeContent color="text.secondary">
+				<TimelineOppositeContent>
 					Also 1879
 				</TimelineOppositeContent>
 				<TimelineSeparator>
-					<TimelineDot />
+					<TimelineDot color="secondary" />
 					<TimelineConnector />
 				</TimelineSeparator>
 				<TimelineContent>
@@ -318,11 +318,11 @@ function EddieTimeline() {
 				</TimelineContent>
 			</TimelineItem>
 			<TimelineItem>
-				<TimelineOppositeContent color="text.secondary">
+				<TimelineOppositeContent>
 					9:00 am
 				</TimelineOppositeContent>
 				<TimelineSeparator>
-					<TimelineDot />
+					<TimelineDot color="secondary" />
 					<TimelineConnector />
 				</TimelineSeparator>
 				<TimelineContent>
@@ -338,11 +338,11 @@ function EddieTimeline() {
 				</TimelineContent>
 			</TimelineItem>
 			<TimelineItem>
-				<TimelineOppositeContent color="text.secondary">
+				<TimelineOppositeContent>
 					9:00 am
 				</TimelineOppositeContent>
 				<TimelineSeparator>
-					<TimelineDot />
+					<TimelineDot color="secondary" />
 					<TimelineConnector />
 				</TimelineSeparator>
 				<TimelineContent>
@@ -358,11 +358,11 @@ function EddieTimeline() {
 				</TimelineContent>
 			</TimelineItem>
 			<TimelineItem>
-				<TimelineOppositeContent color="text.secondary">
+				<TimelineOppositeContent>
 					9:00 am
 				</TimelineOppositeContent>
 				<TimelineSeparator>
-					<TimelineDot />
+					<TimelineDot color="secondary" />
 					<TimelineConnector />
 				</TimelineSeparator>
 				<TimelineContent>
@@ -378,11 +378,11 @@ function EddieTimeline() {
 				</TimelineContent>
 			</TimelineItem>
 			<TimelineItem>
-				<TimelineOppositeContent color="text.secondary">
+				<TimelineOppositeContent>
 					9:00 am
 				</TimelineOppositeContent>
 				<TimelineSeparator>
-					<TimelineDot />
+					<TimelineDot color="secondary" />
 					<TimelineConnector />
 				</TimelineSeparator>
 				<TimelineContent>
@@ -398,11 +398,11 @@ function EddieTimeline() {
 				</TimelineContent>
 			</TimelineItem>
 			<TimelineItem>
-				<TimelineOppositeContent color="text.secondary">
+				<TimelineOppositeContent>
 					9:00 am
 				</TimelineOppositeContent>
 				<TimelineSeparator>
-					<TimelineDot />
+					<TimelineDot color="secondary" />
 					<TimelineConnector />
 				</TimelineSeparator>
 				<TimelineContent>
@@ -418,11 +418,11 @@ function EddieTimeline() {
 				</TimelineContent>
 			</TimelineItem>
 			<TimelineItem>
-				<TimelineOppositeContent color="text.secondary">
+				<TimelineOppositeContent>
 					9:00 am
 				</TimelineOppositeContent>
 				<TimelineSeparator>
-					<TimelineDot />
+					<TimelineDot color="secondary" />
 					<TimelineConnector />
 				</TimelineSeparator>
 				<TimelineContent>

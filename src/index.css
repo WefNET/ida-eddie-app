@@ -15,7 +15,7 @@ code {
 
 .nav-home-icon {
     position: relative;
-    top: 8px;
+    top: 5px;
 }
 
 @media only screen and (max-width: 600px) {

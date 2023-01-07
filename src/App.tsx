@@ -5,20 +5,24 @@ import {
 	Route,
 	Routes,
 } from "react-router-dom";
-import { Home as HomeIcon } from '@mui/icons-material';
+import { Home as HomeIcon, Man, WomanTwoTone } from '@mui/icons-material';
 import './App.css';
 import Edward from './pages/edward';
 import Home from './pages/home';
 import Ida from './pages/ida';
+import { ThemeProvider } from '@emotion/react';
+import { ctaTheme } from './themes/cta-theme';
+import Family from './pages/family';
 
 function App() {
 	return (
+		<ThemeProvider theme={ctaTheme}>
 		<React.Fragment>
 			<GlobalStyles styles={{ ul: { margin: 0, padding: 0, listStyle: 'none' } }} />
 			<CssBaseline />
 			<AppBar
 				position="static"
-				color="default"
+				color="primary"
 				elevation={0}
 				sx={{ borderBottom: (theme) => `1px solid ${theme.palette.divider}` }}
 			>
@@ -32,23 +36,23 @@ function App() {
 							variant="button"
 							href="/"
 							sx={{ my: 1, mx: 1.5 }}>
-							<HomeIcon />
+							<HomeIcon color='info' />
 						</Lank>
 
 						<Lank
-							variant="button"
-							color="text.primary"
+							color="secondary"
 							href="/edward"
 							sx={{ my: 1, mx: 1.5 }}
 						>
+							<Man color='info' className='nav-home-icon'/>
 							Edward
 						</Lank>
 						<Lank
-							variant="button"
-							color="text.primary"
+							color="secondary"
 							href="/ida"
 							sx={{ my: 1, mx: 1.5 }}
 						>
+							<WomanTwoTone color='info' className='nav-home-icon'/>
 							Ida
 						</Lank>
 					</nav>
@@ -61,6 +65,7 @@ function App() {
 						<Route path="/" element={<Home />} />
 						<Route path="edward" element={<Edward />} />
 						<Route path="ida" element={<Ida />} />
+						<Route path="family" element={<Family />} />
 					</Routes>
 				</BrowserRouter>
 			</Container>
@@ -99,6 +104,7 @@ function App() {
 			</Paper>
 			{/* End footer */}
 		</React.Fragment>
+		</ThemeProvider>
 	);
 }
 
