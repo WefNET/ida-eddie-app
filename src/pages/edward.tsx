@@ -1,7 +1,7 @@
 import React from "react";
 import EddieTimeline from "../components/ed-timeline";
 
-function Edward() {
+export const Edward = () => {
 	return (
 		<React.Fragment>
 			<h1>Edward Vandenburgh</h1>
@@ -10,5 +10,3 @@ function Edward() {
 		</React.Fragment>
 	);
 }
-
-export default Edward

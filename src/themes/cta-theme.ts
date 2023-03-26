@@ -14,5 +14,12 @@ export const ctaTheme = createTheme({
 	  info: {
 		main: '#00a1de',
 	  },
+	  background: {
+		default: '#eae5e5',
+		paper: '#62361b',
+	  },
+	  text: {
+		primary: '#000000',
+	  },
 	},
   });

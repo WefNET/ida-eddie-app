@@ -1,7 +1,7 @@
 import React from "react";
 import FamilyTree from "../components/family-tree";
 
-function Ida() {
+export const Ida = () => {
 	return (
 		<React.Fragment>
 			<h1>Sarah Ida Shreffler Vandenburgh</h1>
@@ -9,5 +9,3 @@ function Ida() {
 		</React.Fragment>
 	);
 }
-
-export default Ida;

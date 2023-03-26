@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Home() {
+export const Home = () => {
 	return (
 		<React.Fragment>
 			<p>This site is dedicated to Ida and Eddie, two Chicagoans that married and lived in the later half of the 19th Century.</p>

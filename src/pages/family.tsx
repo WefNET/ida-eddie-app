@@ -1,8 +1,9 @@
-import { Box, Grid } from "@mui/material";
+import { Box, Grid, Paper } from "@mui/material";
 import React from "react";
+import MapOfPoints from "../components/map";
 import PersonCard from "../components/person-card";
 
-export default function Family() {
+export const Family = () => {
 	const family = [
 		{
 			"type": "Vandenburghs",
@@ -50,23 +51,27 @@ export default function Family() {
 	return (
 		<React.Fragment>
 			<Box sx={{ flexGrow: 1 }}>
-				<h1>Family</h1>
+				<Paper sx={{ padding: '12px' }}>
+					<h1>Family</h1>
 
-				<p>Important members of Eddie and Ida's families.</p>
+					<MapOfPoints />
 
-				<Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
-					{/* {names.map(function (name, index) {
+					<p>Important members of Eddie and Ida's families.</p>
+
+					<Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
+						{/* {names.map(function (name, index) {
 						return <li key={index}>{name}</li>;
 					})} */}
-					{family.map((_, index) => {
-						return (
-							<Grid item xs={4}>
-								<PersonCard type={_.type} name={_.name} slug={_.slug}></PersonCard>
-							</Grid>
-						)
-					})}
+						{family.map((_, index) => {
+							return (
+								<Grid item xs={4} key={index}>
+									<PersonCard type={_.type} name={_.name} slug={_.slug}></PersonCard>
+								</Grid>
+							)
+						})}
 
-				</Grid>
+					</Grid>
+				</Paper>
 			</Box>
 
 
