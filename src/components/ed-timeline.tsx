@@ -67,7 +67,7 @@ function EddieTimeline() {
 					<div className="timeline-title">Buffalo</div>
 					<div className="timeline-info">
 						<p>
-							By the time Edward was 17, he was living in Buffalo with his family and working as a compositor for the Buffalo Christian Advocats Office. Here is his letter of recommendation, now over 150 years old, made into a photograph, then posted on heavy cardboard:
+							By the time Edward was 17, he was living in Buffalo with his family and working as a compositor for the Buffalo Christian Advocats Office (a Methodist newspaper). Here is his letter of recommendation, now over 150 years old, made into a photograph, then posted on heavy cardboard:
 						</p>
 						<p>
 							<img className="hero-image" src="./img/edward_vandenburg_recommendation_letter.png" alt="A letter of recommendation" />
